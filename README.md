@@ -10,7 +10,7 @@ SERVE_URL 服务端rap2-delos的地址
 
 **启动docker命令**
 ```
-docker run -itd -name xzxioashan-rap2-dolores -e TZ='Asia/Shanghai' -e SERVE_URL='http://rap2.shanhy.com:5001' -p 8084:8081 xzxiaoshan/rap2-dolores:latest 
+docker run -itd -name xzxioashan-rap2-dolores -e TZ='Asia/Shanghai' -e SERVE_URL='http://192.168.20.50:8083' -p 8084:8081 xzxiaoshan/rap2-dolores:latest 
 ```
 
 ### 二、确认是否启动成功
